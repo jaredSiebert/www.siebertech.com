@@ -1,0 +1,35 @@
+.primary{
+	background: $offWhite;
+	-webkit-box-shadow: 0 0 10px $grey;
+	-moz-box-shadow: 0 0 10px $grey;
+	box-shadow: 0 0 10px $grey;
+	position: relative;
+	text-align: center;
+
+	a{
+		color: $linkColor;
+	}
+
+}
+
+	.logo{
+		display: block;
+		height: 4em;
+		line-height: 4;
+		margin-left: 1em;
+
+		@media screen and (max-width: 629px){
+			padding: 0.3em 0;
+		}
+
+		@media screen and (min-width: 630px){
+			float: left;
+		}
+
+		h1{
+			display: inline;
+			font-size: 2.5em;
+			margin: 0;
+			vertical-align: middle;
+		}
+	}
